@@ -4,9 +4,7 @@ import {posts} from '../../posts.js'
 
 
 export default function Main() {
-    
-    // const tags = props.tags.join(', ')
-
+  
     return (
         <main>
             <section className={style.section}>
@@ -14,7 +12,7 @@ export default function Main() {
                     <div className="row">
                         {posts.map((post) => (
                             <div key={post.id} className="col-6">
-                                <Card title={post.title} content={post.content} />
+                                <Card  post={post}/>
                             </div>
                         ))}
                     </div>
