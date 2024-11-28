@@ -5,8 +5,8 @@
 export const posts = [
 	{
 		id: 1,
-		title: 'Titolo del Post',
-		image: '' /* compila questo campo */,
+		title: 'Titolo del Post 1',
+		image: 'https://placehold.co/600x400',
 		content:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.',
 		tags: ['html', 'css'],
@@ -14,8 +14,8 @@ export const posts = [
 	},
 	{
 		id: 2,
-		title: 'Titolo del Post',
-		image: '' /* compila questo campo */,
+		title: 'Titolo del Post 2',
+		image: 'https://placehold.co/600x400/000000/FFF',
 		content:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.',
 		tags: ['js', 'css'],
@@ -23,8 +23,8 @@ export const posts = [
 	},
 	{
 		id: 3,
-		title: 'Titolo del Post',
-		image: '' /* compila questo campo */,
+		title: 'Titolo del Post 3',
+		image: 'https://placehold.co/600x400/orange/white',
 		content:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.',
 		tags: ['js', 'php'],
@@ -32,8 +32,8 @@ export const posts = [
 	},
 	{
 		id: 4,
-		title: 'Titolo del Post',
-		image: '' /* compila questo campo */,
+		title: 'Titolo del Post 4',
+		image: 'https://placehold.co/600x400/yellow/black',
 		content:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.',
 		tags: ['html'],

@@ -11,7 +11,7 @@ export default function Card (props) {
 
     return (
         <div className={style.card}>
-            <img className={style.image} src={imagePost} alt="" />
+            <img className={style.image} src={props.post.image} alt="" />
             <div className={style.card_body}>
                 <h3 className={style.card_title}>{props.post.title}</h3>
                 <h4 className={style.card_tags}>Tags: {card_tags}</h4>
